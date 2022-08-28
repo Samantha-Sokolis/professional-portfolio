@@ -8,6 +8,8 @@ The professional portfolio will provide samples of projects that showcase skills
 ## Notes
 
 Portfolio is still a work in progress. Mock-up image below shows layout, and main image will be refined and include animated elements.
+![SS Portfolio Mockup](https://user-images.githubusercontent.com/109199225/187073989-82bc0d50-57cb-4b03-ac0b-b21bc5313347.JPG)
+
 
 ## Acceptance Criteria
 
@@ -30,6 +32,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Credits
 
 As seen in Mood Board, various websites were viewed as inspiration, mainly due to their use of illustation and animation to creatively showcase their work.
+![Portfolio Mood Board](https://user-images.githubusercontent.com/109199225/187073999-d63b70f1-e755-4a4d-89cb-5c3d0e970ec5.jpg)
+
 
 ## License
 
