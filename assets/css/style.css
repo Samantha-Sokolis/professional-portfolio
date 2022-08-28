@@ -1,4 +1,16 @@
-.header {
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ffde79;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
     padding: 25px;
     font-family: Helvetica, Arial, sans-serif;
     color: #3a4887;
@@ -14,6 +26,10 @@
     background-position: center;
 }
 
+section {
+  border-bottom: 5px #ffc000;
+}
+
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
@@ -22,43 +38,67 @@
     color: #3a4887;
 }
 
-.contact {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #3a4887;
+img {
+  border-radius: 50%;
 }
 
-.footer {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #3a4887;
+.image-padding {
+  padding: 20px;
+  margin-top: 40px;
 }
 
 .projects {
-    flex: 1 0 200px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #3a4887;
   }
 
-  #projects-box {
+  .project-main {
+    background-image: url("assets/images/digital-marketing-meeting.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 10px 10px #ffc000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 25px;
     background: #fdefc4;
     padding: 20px;
+    margin-bottom: 20px;
     width: 400px;
     height: 100px;
     box-shadow: 10px 10px #ffc000;
   }
 
+.contact {
+  margin-top: 400px;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #3a4887;
+}
+
+.footer {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #3a4887;
+}
+
 h1 {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 100%
+    font-size: 150%
 }
 
 h2 {
@@ -71,10 +111,20 @@ h3 {
     font-size: 100%
 }
 
+h4 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%
+}
+
+nav ul li {
+  margin-left: 40px;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
     padding-left: 300px;
+    list-style-type: none;
   }
   
   nav a {
@@ -85,3 +135,10 @@ nav ul {
   nav a:hover {
     color: #fff;
   }
+
+  @media screen and (max-width: 768px) {
+  }
+    main,
+    nav {
+      flex-direction: column;
+    }
